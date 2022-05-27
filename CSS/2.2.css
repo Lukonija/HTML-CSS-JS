@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+form {
+  width: 100%;
+}
+form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+form button {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  width: 70px;
+  height: 30px;
+  border-radius: 2px;
+  border: solid 2px blue;
+}

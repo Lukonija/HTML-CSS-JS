@@ -1,0 +1,58 @@
+.container {
+  border: solid;
+  border-style: double;
+  border-width: 70%;
+  display: block;
+  margin: auto;
+  width: 50%;
+  font-family: "Courier New", Courier, monospace;
+}
+.logo {
+  text-align: center;
+  line-height: 10px;
+  font-family: "Rokkitt", serif;
+}
+span {
+  font-weight: 1000;
+  color: black;
+  font-size: 20px;
+  line-height: 0px;
+}
+.span1 {
+  font-weight: 600;
+  font-size: 8px;
+  color: #605e5e;
+  line-height: 12px;
+}
+.span2 {
+  letter-spacing: 1.5px;
+  color: #605e5e;
+  font-size: 10px;
+  font-weight: 600;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  border-top: solid 2px black;
+  border-bottom: solid 1px black;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li:hover {
+  color: red;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.text {
+  text-align: center;
+  width: 450px;
+  margin-left: 110px;
+}

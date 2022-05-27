@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body .navbar.navbar-expand-lg.navbar-light {
+  background-color: #000000;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+body .navbar.navbar-expand-lg.navbar-light a {
+  color: white !important;
+}
+.navbar-collapse.collapse {
+  justify-content: end;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    display: block;
+  }
+}
+.Logo {
+  height: 80px;
+}
+.heroe.container-fluid {
+  background: aqua;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 436px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.cards {
+  padding: 50px;
+}
+.card-img-top {
+  height: 250px;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-body {
+  min-height: 300px;
+}

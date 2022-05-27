@@ -1,0 +1,138 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+#hamburger-menu {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: none;
+  background: linear-gradient(
+    to bottom,
+    #3d0e61,
+    #3d0e61 20%,
+    white 20%,
+    white 40%,
+    #3d0e61 40%,
+    #3d0e61 60%,
+    white 60%,
+    white 80%,
+    #3d0e61 80%,
+    #3d0e61 100%
+  );
+}
+
+/* Navigation bar */
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.nav-link {
+  margin: 0px 10px 0px 10px;
+}
+
+/* Showcase */
+.showcase_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: rgb(29, 247, 255);
+}
+
+/* Cards */
+.section_container {
+  display: flex;
+  justify-content: center;
+  height: 410px;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  width: 1150px;
+}
+
+.card_picture {
+  background-color: green;
+  height: 210px;
+}
+
+.card_item {
+  border: 1px solid rgba(163, 163, 163, 0.349);
+  width: 460px;
+  margin: 10px;
+  margin-top: 13px;
+}
+
+.card_text {
+  margin: 0px 7px 20px 7px;
+}
+
+.card_text p {
+  font-size: 0.7rem;
+}
+
+.card_topic,
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card_picture {
+  margin: 0;
+}
+
+/* Yellow section */
+.yellow_container {
+  height: 250px;
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.yellow_container_text {
+  height: 100px;
+  width: 1125px;
+  font-size: 0.7rem;
+}
+
+/* Red section */
+.red_container {
+  height: 200px;
+  display: flex;
+  background-color: rgb(255, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+
+.red_text {
+  display: flex;
+  height: 200px;
+  width: 1125px;
+  font-size: 0.7rem;
+}
+
+.red_item {
+  width: 305px;
+}
+
+.first_content {
+  margin-left: 25px;
+}
